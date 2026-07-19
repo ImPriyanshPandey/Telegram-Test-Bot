@@ -1,0 +1,18 @@
+# Secrets — never commit this
+config.py
+
+# Auto-generated at runtime — contain user IDs, payment history, etc.
+known_groups.json
+purchases.json
+pending_payments.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor/OS clutter
+.vscode/
+.idea/
+Thumbs.db
